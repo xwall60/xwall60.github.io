@@ -171,7 +171,7 @@ span {
 #content {
 	width: 100%;
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 50px;
 	padding-bottom: 15px;
 }
 
@@ -190,7 +190,7 @@ span {
 	animation: fadeInDown 1s;
 	position: relative;
 	display: inline-block;
-	width: 75px;
+	width: 100px;
 	border: 0;
 }
 
@@ -257,9 +257,9 @@ span {
 */
 
 .icon {
-	width: 3em;
-	height: 3em;
-	max-width: 72px;
+	width: 5em;
+	height: 5em;
+	max-width: 98px;
 }
 
 /*
