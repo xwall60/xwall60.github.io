@@ -186,11 +186,11 @@ span {
 */
 
 .box {
-	-webkit-animation: fadeInDown 1s;
-	animation: fadeInDown 1s;
+/* 	-webkit-animation: fadeInDown 1s;
+	animation: fadeInDown 1s; */
 	position: relative;
 	display: inline-block;
-	width: 80px;
+	width: 75px;
 	border: 0;
 }
 
@@ -259,7 +259,7 @@ span {
 .icon {
 	width: 4em;
 	height: 4em;
-	max-width: 90px;
+	max-width: 72px;
 }
 
 /*
