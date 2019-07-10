@@ -184,10 +184,9 @@ span {
 宽度︰ 75px;
 边境︰ 0;
 */
-
-.box {
 /* 	-webkit-animation: fadeInDown 1s;
 	animation: fadeInDown 1s; */
+.box {
 	position: relative;
 	display: inline-block;
 	width: 75px;
@@ -260,6 +259,7 @@ span {
 	width: 4em;
 	height: 4em;
 	max-width: 72px;
+	border-radius:50%;
 }
 
 /*
