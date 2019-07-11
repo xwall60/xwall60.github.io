@@ -189,7 +189,8 @@ span {
 .box {
 	position: relative;
 	display: inline-block;
-	width: 75px;
+	width: 56px;
+	/* height:56px; */
 	border: 0;
 }
 
@@ -234,7 +235,7 @@ span {
 	color: #232323;
 	height: 1.5em;
 	line-height: 1.5em;
-	width: 72px;
+	width: 48px;
 	font-size: 0.75em;
 	white-space: nowrap;
 	overflow: hidden;
@@ -258,7 +259,8 @@ span {
 .icon {
 	width: 4em;
 	height: 4em;
-	max-width: 72px;
+	max-width: 48px;
+	max-height: 48px;
 	border-radius:50%;
 }
 
