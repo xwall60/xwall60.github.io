@@ -28,11 +28,11 @@ logo图标样式
 
 
 img.smaller {
-	width: 198px;
-	height: 65px;
+	width: 180px;
+	height: 86px;
 	max-width: 250px;
-	animation: flipInX 4s;
-	-webkit-animation: flipInX 4s
+/* 	animation: flipInX 4s;
+	-webkit-animation: flipInX 4s */
 }
 
 
