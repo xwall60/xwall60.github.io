@@ -4,6 +4,8 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>主页</title>
+ <script src="jquery.js"></script> 
+ <script src="loadsinadata.js"></script> 
 <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
@@ -90,6 +92,7 @@
 <p class="url">Journey</p>
 </div>
 
+
 <!--
 如若要添加可复制一段
 <div class="box">
@@ -107,6 +110,15 @@
 </div>
 
 <script type="text/javascript">function search(){if(document.getElementById("search_input").value != ""){window.location.href = "https://www.baidu.com/s?ie=utf-8&wd=" + document.getElementById("search_input").value;document.getElementById("search_input").value = "";}return false;}</script>
-
+<script src="stockCode.js"></script> 
+  <button onclick="clearCodes()">C</button> 
+  <button id="SHOW">S</button> 
+  <button id="HIDE">H</button> 
+  <form> 
+   <input id="code" type="text" /> 
+   <button onclick="addCode()">+</button> 
+   <br />
+  </form> 
+  <div id="codesInfo" style="position:absolute;bottom:0%;right:0%;font-size:12px;"></div>  
 </body>
 </html>
