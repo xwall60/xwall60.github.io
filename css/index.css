@@ -174,7 +174,12 @@ span {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
-
+#codeinfo {
+	position:absolute;
+	bottom:0%;
+	left:0%;
+	font-size:12px;	
+}
 /*翻译
 书签框架样式
 -webkit 动画︰ fadeInDown 1s;
